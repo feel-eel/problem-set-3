@@ -85,7 +85,7 @@ squirrelPlay(95, true) should yield YES.
 
 ### Exercise 4 (```fizzStringAgain```)
 
-Given an integer value (i.e., the ```n``` parameter), print the ```String``` form of the number followed by an exclamation point. There are a few expections to this rule. If ```n``` is divisible by 3, replace the number with ```FIZZ```; if ```n``` is divisible by 5, replace the number with ```BUZZ```; if ```n``` is divisible by by both 3 and 5, replace the number with ```FIZZBUZZ```.
+Given an integer value (i.e., the ```n``` parameter), print the number followed by an exclamation point. There are a few expections to this rule. If ```n``` is divisible by 3, replace the number with ```FIZZ```; if ```n``` is divisible by 5, replace the number with ```BUZZ```; if ```n``` is divisible by by both 3 and 5, replace the number with ```FIZZBUZZ```.
 
 ```
 fizzStringAgain(2) should yield 2!.
@@ -110,7 +110,7 @@ This one's pretty simple. Given three integer values (i.e., the ```a```, ```b```
 
 ```
 loneSum(1, 2, 3) should yield 6.
-loneSum(3, 2, 2) should yield 2.
+loneSum(3, 2, 3) should yield 2.
 loneSum(3, 3, 3) should yield 0.
 ```
 
