@@ -124,26 +124,26 @@ dateFashion(10, 10); // YES.
 
 // fizzString(str) Test Cases
 
-fizzString(for); // FIZZ.
-fizzString(fit); // FIZZ.
-fizzString(fax); // FIZZ.
-fizzString(fat); // FIZZ.
-fizzString(fix); // FIZZ.
-fizzString(job); // BUZZ.
-fizzString(rob); // BUZZ.
-fizzString(pub); // BUZZ.
-fizzString(tab); // BUZZ.
-fizzString(rib); // BUZZ.
-fizzString(fab); // FIZZBUZZ.
-fizzString(fib); // FIZZBUZZ.
-fizzString(flab); // FIZZBUZZ.
-fizzString(feeb); // FIZZBUZZ.
-fizzString(forb); // FIZZBUZZ.
-fizzString(qwerty); // qwerty
-fizzString(asdfg); // asdfg
-fizzString(mnbvc); // mnbvc
-fizzString(qazwsx); // qazwsx
-fizzString(edcrfv); // edcrfv
+fizzString("for"); // FIZZ.
+fizzString("fit"); // FIZZ.
+fizzString("fax"); // FIZZ.
+fizzString("fat"); // FIZZ.
+fizzString("fix"); // FIZZ.
+fizzString("job"); // BUZZ.
+fizzString("rob"); // BUZZ.
+fizzString("pub"); // BUZZ.
+fizzString("tab"); // BUZZ.
+fizzString("rib"); // BUZZ.
+fizzString("fab"); // FIZZBUZZ.
+fizzString("fib"); // FIZZBUZZ.
+fizzString("flab"); // FIZZBUZZ.
+fizzString("feeb"); // FIZZBUZZ.
+fizzString("forb"); // FIZZBUZZ.
+fizzString("qwerty"); // qwerty
+fizzString("asdfg"); // asdfg
+fizzString("mnbvc"); // mnbvc
+fizzString("qazwsx"); // qazwsx
+fizzString("edcrfv"); // edcrfv
 
 // squirrelPlay(temp, isSummer) Test Cases
 
