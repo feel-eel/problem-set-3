@@ -121,6 +121,7 @@ dateFashion(10, 7) >>> YES.
 dateFashion(10, 8) >>> YES.
 dateFashion(10, 9) >>> YES.
 dateFashion(10, 10) >>> YES.
+
 ### fizzString(str) Test Cases
 
 fizzString(for) >>> FIZZ.
@@ -138,6 +139,12 @@ fizzString(fib) >>> FIZZBUZZ.
 fizzString(flab) >>> FIZZBUZZ.
 fizzString(feeb) >>> FIZZBUZZ.
 fizzString(forb) >>> FIZZBUZZ.
+fizzString(qwerty) >>> qwerty
+fizzString(asdfg) >>> asdfg
+fizzString(mnbvc) >>> mnbvc
+fizzString(qazwsx) >>> qazwsx
+fizzString(edcrfv) >>> edcrfv
+
 ### squirrelPlay(temp, isSummer) Test Cases
 
 squirrelPlay(50, false) >>> NO.
@@ -260,6 +267,7 @@ squirrelPlay(108, false) >>> NO.
 squirrelPlay(108, true) >>> NO.
 squirrelPlay(109, false) >>> NO.
 squirrelPlay(109, true) >>> NO.
+
 ### fizzStringAgain(n) Test Cases
 
 fizzStringAgain(0) >>> FIZZBUZZ!
@@ -362,6 +370,7 @@ fizzStringAgain(96) >>> FIZZ!
 fizzStringAgain(97) >>> 97!
 fizzStringAgain(98) >>> 98!
 fizzStringAgain(99) >>> FIZZ!
+
 ### makeBricks(small, big, goal) Test Cases
 
 makeBricks(3, 1, 8) >>> YES.
@@ -393,6 +402,7 @@ makeBricks(20, 0, 19) >>> YES.
 makeBricks(20, 0, 21) >>> NO.
 makeBricks(20, 4, 51) >>> NO.
 makeBricks(20, 4, 39) >>> YES.
+
 ### loneSum(a, b, c) Test Cases
 
 loneSum(0, 0, 0) >>> 0.
@@ -1395,6 +1405,7 @@ loneSum(9, 9, 6) >>> 6.
 loneSum(9, 9, 7) >>> 7.
 loneSum(9, 9, 8) >>> 8.
 loneSum(9, 9, 9) >>> 0.
+
 ### luckySum(a, b, c) Test Cases
 
 luckySum(0, 0, 0) >>> 0.
@@ -2397,30 +2408,33 @@ luckySum(9, 9, 6) >>> 24.
 luckySum(9, 9, 7) >>> 25.
 luckySum(9, 9, 8) >>> 26.
 luckySum(9, 9, 9) >>> 27.
+
 ### factorialWithFor(n) Test Cases
 
-factorialWithFor(1) >>> 0! = 0.
-factorialWithFor(2) >>> 0! = 2.
-factorialWithFor(3) >>> 0! = 24.
-factorialWithFor(4) >>> 0! = 324.
-factorialWithFor(5) >>> 0! = 5120.
-factorialWithFor(6) >>> 0! = 93750.
-factorialWithFor(7) >>> 0! = 1959552.
-factorialWithFor(8) >>> 0! = 46118408.
-factorialWithFor(9) >>> 0! = 1207959552.
-factorialWithFor(10) >>> 0! = 508105642.
+factorialWithFor(1) >>> 1! = 1.
+factorialWithFor(2) >>> 2! = 2.
+factorialWithFor(3) >>> 3! = 6.
+factorialWithFor(4) >>> 4! = 24.
+factorialWithFor(5) >>> 5! = 120.
+factorialWithFor(6) >>> 6! = 720.
+factorialWithFor(7) >>> 7! = 5040.
+factorialWithFor(8) >>> 8! = 40320.
+factorialWithFor(9) >>> 9! = 362880.
+factorialWithFor(10) >>> 10! = 3628800.
+
 ### factorialWithWhile(n) Test Cases
 
-factorialWithWhile(1) >>> 1! = 0.
-factorialWithWhile(2) >>> 2! = 0.
-factorialWithWhile(3) >>> 3! = 0.
-factorialWithWhile(4) >>> 4! = 0.
-factorialWithWhile(5) >>> 5! = 0.
-factorialWithWhile(6) >>> 6! = 0.
-factorialWithWhile(7) >>> 7! = 0.
-factorialWithWhile(8) >>> 8! = 0.
-factorialWithWhile(9) >>> 9! = 0.
-factorialWithWhile(10) >>> 10! = 0.
+factorialWithWhile(1) >>> 1! = 1.
+factorialWithWhile(2) >>> 2! = 2.
+factorialWithWhile(3) >>> 3! = 6.
+factorialWithWhile(4) >>> 4! = 24.
+factorialWithWhile(5) >>> 5! = 120.
+factorialWithWhile(6) >>> 6! = 720.
+factorialWithWhile(7) >>> 7! = 5040.
+factorialWithWhile(8) >>> 8! = 40320.
+factorialWithWhile(9) >>> 9! = 362880.
+factorialWithWhile(10) >>> 10! = 3628800.
+
 ### isPrime(n) Test Cases
 
 isPrime(0) >>> NOT PRIME.
