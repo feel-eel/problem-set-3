@@ -1,3 +1,5 @@
+dateFashion(you, date)
+
 NO.
 NO.
 NO.
@@ -119,6 +121,9 @@ YES.
 YES.
 YES.
 YES.
+
+fizzString(str)
+
 FIZZ.
 FIZZ.
 FIZZ.
@@ -139,6 +144,9 @@ asdfg
 mnbvc
 qazwsx
 edcrfv
+
+squirrelPlay(temp, isSummer)
+
 NO.
 NO.
 NO.
@@ -259,6 +267,9 @@ NO.
 NO.
 NO.
 NO.
+
+fizzStringAgain(n)
+
 FIZZBUZZ!
 1!
 2!
@@ -359,6 +370,9 @@ FIZZ!
 97!
 98!
 FIZZ!
+
+makeBricks(small, big, goal)
+
 YES.
 NO.
 YES.
@@ -388,6 +402,9 @@ YES.
 NO.
 NO.
 YES.
+
+loneSum(a, b, c)
+
 0.
 1.
 2.
@@ -1388,6 +1405,9 @@ YES.
 7.
 8.
 0.
+
+luckySum(a, b, c)
+
 0.
 1.
 2.
@@ -2388,6 +2408,9 @@ YES.
 25.
 26.
 27.
+
+factorialWithFor(n)
+
 1! = 1.
 2! = 2.
 3! = 6.
@@ -2398,6 +2421,9 @@ YES.
 8! = 40320.
 9! = 362880.
 10! = 3628800.
+
+factorialWithWhile(n)
+
 1! = 1.
 2! = 2.
 3! = 6.
@@ -2408,6 +2434,9 @@ YES.
 8! = 40320.
 9! = 362880.
 10! = 3628800.
+
+isPrime(n)
+
 NOT PRIME.
 NOT PRIME.
 PRIME.
